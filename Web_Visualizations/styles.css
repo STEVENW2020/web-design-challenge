@@ -1,0 +1,108 @@
+img {
+  max-width: 100%;
+}
+/* # is id selector */
+#imgsel{
+  border: darkcyan 2px solid;
+}
+/* font found at https://developer.mozilla.org/en-US/docs/Web/CSS/font-family font-family: Georgia, serif*/
+/* color found in https://www.htmlcsscolor.com/ */
+h1, h2, h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: darkcyan;
+}
+
+h1{
+  font-size: 24px;
+  font-weight: bold;
+  text-align:left;
+}
+
+h2{
+  font-size: 22px;
+  font-weight: bold;
+  text-align:left;
+  }
+
+h3{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p{
+  color: gray;
+  text-align:left;
+}
+/* . is class selector */
+.navbar{
+    position: absolute;
+    right: 30px;
+}
+
+.navbar a{
+  background-color:white;
+}
+
+body {
+  width: 100%;
+  min-height:100%;
+  background-color: lightgray;
+}
+
+.col {
+  width: 100%;
+} 
+
+.landing{
+  background-color: white;
+  z-index:2;
+}
+
+.landing a{
+  width: 110px;
+  background: darkcyan;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 14px;
+  margin: 0px 0px 0px 40px;
+}
+
+.top{
+  background-color: white;
+  z-index:2;
+}
+
+.middle{
+  background-color: white;
+  z-index:1;
+}
+
+.table{
+  text-align:center;
+  background-color: white;
+  z-index:1
+}
+
+.bottom {
+  width:100%;
+  bottom:0;
+  background-color: darkcyan;
+  z-index:0;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+}
+
+ .dtext {
+   color: gray;
+  text-align:left;
+  font-size: 12px;}
+
